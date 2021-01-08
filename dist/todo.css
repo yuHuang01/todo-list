@@ -1,0 +1,73 @@
+:root{
+    font-size: 20px;
+    color: white;
+    --task-width: 30rem;
+    --task-padding: 0.6rem;
+    --task-bg-color: #353434;
+    --subtask-width: 27rem;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2b2a2a;
+}
+
+#task-form{
+    width: var(--task-width);
+    background-color: var(--task-bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 75px;
+    padding: var(--task-padding);
+    border-radius: 5px;
+}
+#task-form h2{
+    align-self: center;
+    margin-top: 0;
+}
+.label{
+    font-style: italic;
+    margin-bottom: 5px;
+}
+.input{
+    width: 25rem;
+    margin-bottom: 8px;
+}
+
+.project-div{
+    background-color: var(--task-bg-color);
+    width: var(--task-width);
+    padding: var(--task-padding);
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.description{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.subproject-div{
+    background-color:#363434;
+    width: var(--subtask-width);
+    margin-left: auto;
+    padding: 0.3rem;
+}
+.task-div{
+    background-color: var(--task-bg-color);
+    width: var(--task-width);
+    padding: var(--task-padding);
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
