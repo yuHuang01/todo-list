@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="todo.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src="todo-main.js" defer></script>
+    <script src="todo-main.js" type="module" defer></script>
     <title>To Do List</title>
 </head>
 <body>
@@ -17,17 +17,20 @@
         <input name="description" class="input">
         <label for="deadline" class="label">Deadline of the task/project</label>
         <input type="date" name="deadline" class="input">
+        <button type="button" id="project-add">Add</button>
     </form>
     <div class="project-div">
-        <h3 class="title">Project sample</h3>
-        <p class="description">This is a little description</p>
+        <p class="title">Project sample</p>
+        <p class="deadline">2021.12.31.</p>
+        <p class="description">This is the description</p>
+            <span class="material-icons icon add-icon">add</span>
+            <span class="material-icons icon done-icon">done_outline</span>
+            <span class="material-icons icon delete-icon">delete_outline</span>
         <div class="subproject-div">
-            Subproject sample
+            <p class="title">Subproject sample</p>
+            <span class="material-icons icon sub-div-icon done-icon">done_outline</span>
+            <span class="material-icons icon sub-div-icon delete-icon">delete_outline</span>
         </div>
-    </div>
-    <div class="task-div">
-        <h3 class="title">Task</h3>
-        <p class="description">This is another description</p>
     </div>
 </body>
 </html>
