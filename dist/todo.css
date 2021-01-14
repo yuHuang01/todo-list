@@ -64,10 +64,22 @@ body{
     border-radius: 5px;
     margin-top: 20px;
 }
+.project-div:last-child{
+    margin-bottom: 20px;
+}
 .title{
     margin-top: 0;
     margin-bottom: 5px;
 }
+.deadline{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.description{
+    font-size: 15px;
+    margin-top: 0px;
+}
+
 .icon{
     display: inline;
     width: 27px;
@@ -75,23 +87,8 @@ body{
     margin-left: 10px;
 }
 .icon:hover{
-    transform: scale(1.2);
+    transform: scale(1.15);
     transition: 0.3s;
-}
-.icon-div{
-    display: inline;
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    margin-bottom: 15px;
-}
-.description{
-    font-size: 15px;
-    margin-top: 0px;
-}
-.deadline{
-    font-size: 15px;
-    margin-top: 5px;
 }
 .subproject-div{
     background-color:var(--task-bg-color);

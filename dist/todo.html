@@ -12,25 +12,12 @@
     <form id="task-form">
         <h2>Add your to do here!</h2>
         <label for="title" class="label">Title of your task/project</label>
-        <input type="text" name="title" class="input">
+        <input type="text" name="title" class="input" id="title">
         <label for="description" class="label">A little discription or note about your task/project</label>
-        <input name="description" class="input">
+        <input type="text" name="description" class="input" id="description">
         <label for="deadline" class="label">Deadline of the task/project</label>
-        <input type="date" name="deadline" class="input">
+        <input type="date" name="deadline" class="input" id="date">
         <button type="button" id="project-add">Add</button>
     </form>
-    <div class="project-div">
-        <p class="title">Project sample</p>
-        <p class="deadline">2021.12.31.</p>
-        <p class="description">This is the description</p>
-            <span class="material-icons icon add-icon">add</span>
-            <span class="material-icons icon done-icon">done_outline</span>
-            <span class="material-icons icon delete-icon">delete_outline</span>
-        <div class="subproject-div">
-            <p class="title">Subproject sample</p>
-            <span class="material-icons icon sub-div-icon done-icon">done_outline</span>
-            <span class="material-icons icon sub-div-icon delete-icon">delete_outline</span>
-        </div>
-    </div>
 </body>
 </html>
